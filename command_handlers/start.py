@@ -4,6 +4,7 @@ from decorators.send_action import send_typing_action
 from .help import help_command
 
 
+
 @send_typing_action
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""

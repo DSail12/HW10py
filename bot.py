@@ -15,7 +15,7 @@ if __name__ == '__main__':
         level=logging.INFO
     )
 
-    TOKEN = os.environ["TOKEN-KEY"]
+    TOKEN = os.environ["TOKEN"]
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler(['start', 'restart'], start))
