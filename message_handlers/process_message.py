@@ -5,7 +5,7 @@ import utils.polynom as p
 
 
 async def process_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    "Принимаем многочлен."
+    "Принимаем многочлен"
     message = update.message.text
     try:
         if '\n' in message:

@@ -5,7 +5,7 @@ from decorators.send_action import send_typing_action
 
 @send_typing_action
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    answer = '''Список команд:
+    answer = '''Список команд :
     /help - Показать, что я умею
     <b>Сложение многочленов:</b>
     Присылайте многочлены в одном сообщении, каждый с новой строки (Shift+Enter).

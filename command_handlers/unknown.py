@@ -4,6 +4,7 @@ from decorators.send_action import send_typing_action
 from .help import help_command
 
 
+
 @send_typing_action
 async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text="Не понимаю такую команду.")
